@@ -3,9 +3,9 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl">
+    <Container maxW="container.xl" bg="#fff1e5">
       {/* Navigation Bar */}
-      <Flex as="nav" bg="gray.800" color="white" p={4} position="sticky" top={0} zIndex={1}>
+      <Flex as="nav" bg="#fff1e5" color="black" p={4} position="sticky" top={0} zIndex={1}>
         <HStack spacing={8} align="center">
           <Heading size="md">Financial Times</Heading>
           <HStack spacing={4}>
@@ -68,7 +68,7 @@ const Index = () => {
       </Flex>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" p={4} mt={8}>
+      <Box as="footer" bg="#fff1e5" color="black" p={4} mt={8}>
         <Flex justify="space-between" align="center">
           <Text>&copy; 2023 Financial Times</Text>
           <HStack spacing={4}>
